@@ -1,8 +1,10 @@
 pipeline{
   agent any
-  stages('Example'){
-    stage{
-      echo "hello"
+  stages{
+    stage(‘Example Build’) {
+      steps {
+       sh ‘java -version’
+      }
     }
   }
 }
