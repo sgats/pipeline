@@ -1,2 +1,4 @@
 # pipeline
 pipeline练习使用
+token:
+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
